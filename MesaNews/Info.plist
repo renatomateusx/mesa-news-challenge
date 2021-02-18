@@ -58,5 +58,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>token</key>
+	<string>eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NDM1LCJlbWFpbCI6InJhbmRvbS5tYWlsOTExQG1haWwuY29tIn0.LYPe616StTRFnuy-uOtvkCgnQORDdtzeWxaWO0TGjQM</string>
 </dict>
 </plist>
