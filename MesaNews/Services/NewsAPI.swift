@@ -24,9 +24,9 @@ class NewsAPI: NSObject {
     }
     
     class var header:HTTPHeaders {
-        guard let secret = Helper.getSecret() else { return HTTPHeaders.default }
+        let token:String = UserDef.getToken()
         let headers: HTTPHeaders = [
-            "Authorization": "Bearer \(secret.token)",
+            "Authorization": "Bearer \(token)",
             "Content-Type": "application/json"
         ]
         return headers

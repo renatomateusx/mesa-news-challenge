@@ -9,7 +9,7 @@ import Foundation
 
 class UserDef {
     
-    class func getToken() -> String{
+    static func getToken() -> String{
         let defaults = UserDefaults.standard
         guard let token = defaults.string(forKey: "Token") else {return ""}
         return token
